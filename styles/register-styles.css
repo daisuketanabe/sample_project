@@ -39,3 +39,9 @@ form button:hover {
   color: steelblue;
 }
 
+@media (max-width: 830px) {
+  form {
+    width: 90%;
+  }
+}
+
