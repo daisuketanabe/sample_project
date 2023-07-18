@@ -72,9 +72,9 @@ header h1 {
 
 @media (max-width: 500px) {
   header {
-    grid-template-rows: 2rem;
+    grid-template-rows: 3rem;
     background-color: steelblue;
-    padding-top: 0.5rem;
+    padding-top: 1.5rem;
   }
 
   header a,
