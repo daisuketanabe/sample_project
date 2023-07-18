@@ -190,6 +190,13 @@ main > p {
   margin: 1rem;
 }
 
+@media (max-width: 500px) {
+  main {
+    margin-top: 1.5rem;
+    padding-top: 2rem;
+  }
+}
+
 /* FOOTER */
 
 footer {
