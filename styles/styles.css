@@ -70,7 +70,7 @@ header h1 {
 
 /* HEADER SMALL SCREEN */
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   header {
     grid-template-rows: 2rem;
     background-color: steelblue;
@@ -80,13 +80,6 @@ header h1 {
   header a,
   header h1 {
     display: none;
-  }
-
-  #menu-icon{
-    display: flex;
-    justify-content: flex-end;
-    margin-left: auto;
-    margin-right: 0;
   }
 }
 

@@ -22,6 +22,7 @@
   background-color: black;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1rem 1fr;
+  padding-bottom: 0.5rem;
 }
 
 #advice h2 {
@@ -90,6 +91,7 @@
 /* ADVICE SECTION SMALL SCREEN */
 
 @media (max-width: 500px) {
+
   #advice article {
     display: block;
     text-align: center;
@@ -109,6 +111,7 @@
   grid-template-rows: 2rem 1fr 1fr 1fr;
   text-align: center;
   background-image: url("../images/runners2.jpg");
+  padding-top: 0.5rem;
 }
 
 #purpose h3,
@@ -147,6 +150,7 @@
 @media (max-width: 830px) {
   #purpose {
     display: block;
+    margin-bottom: 2rem;
   }
 }
 

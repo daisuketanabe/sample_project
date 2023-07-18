@@ -23,7 +23,7 @@ function toggleMenu() {
     var open = icons[1];
     var width = window.innerWidth;
   
-    if (width > 500) {
+    if (width > 600) {
       x.style.display = 'flex';
       open.style.display = 'none';
       close.style.display = 'none';
@@ -44,7 +44,7 @@ function toggleMenu() {
     var close = icons[0];
     var open = icons[1];
     var width = window.innerWidth;
-    if (width > 500) {
+    if (width > 600) {
       x.style.display = 'flex';
       open.style.display = 'none';
       close.style.display = 'none';
