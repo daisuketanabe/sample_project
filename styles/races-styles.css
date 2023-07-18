@@ -45,6 +45,6 @@ main p {
 @media (max-width: 500px) {
   main table {
     table-layout: fixed;
-    width: 100%;
+    width: 90%;
   }
 }
